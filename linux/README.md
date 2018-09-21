@@ -66,3 +66,11 @@ tar -ztf xx.tar.gz | grep file_you_want_to_get
 tar -zxf xx.tar.gz path/to/file
 ```
 
+# zsh: command not found: tree
+
+可能安装完zsh之后会出现这种情况，最好的解决办法就是重新安装 tree
+
+```bash
+sudo apt-get install tree
+```
+
