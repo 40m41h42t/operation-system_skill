@@ -74,3 +74,8 @@ tar -zxf xx.tar.gz path/to/file
 sudo apt-get install tree
 ```
 
+# Linux安装ssr客户端
+
+https://blog.csdn.net/qq_36290650/article/details/80745378
+
+利用了开源项目 `electron-ssr`
