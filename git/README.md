@@ -61,3 +61,10 @@ git remote -v
 ```
 
 可以列出所有远程仓库信息，包括网址。
+
+# 下载GitHub上某个文件夹/文件
+
+[如何从 GitHub 上下载单个文件夹？](https://www.zhihu.com/question/25369412)
+
+[DownGit|Create GitHub Resource Download Link](https://minhaskamal.github.io/DownGit/#/home)
+
