@@ -66,5 +66,11 @@ git remote -v
 
 [如何从 GitHub 上下载单个文件夹？](https://www.zhihu.com/question/25369412)
 
-[DownGit|Create GitHub Resource Download Link](https://minhaskamal.github.io/DownGit/#/home)
+- [DownGit|Create GitHub Resource Download Link](https://minhaskamal.github.io/DownGit/#/home)
+
+- - 实测效果：由于网络质量问题，速度并不是很快，但是至少可以用。
+
+```
+svn checkout https://github.com/Mooophy/Cpp-Primer/trunk/ch03
+```
 

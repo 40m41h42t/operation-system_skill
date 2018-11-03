@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\dnSpyx86]
+@="Open with dnSPy x86"
+"Icon"="C:\\dnSpy\\dnSpy-x86.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\dnSpyx86\command]
+@="C:\\dnSpy\\dnSpy-x86.exe %1"
+
+[HKEY_CLASSES_ROOT\*\shell\dnSpyx64]
+@="Open with dnSPy x64"
+"Icon"="C:\\dnSpy\\dnSpy.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\dnSpyx64\command]
+@="C:\\dnSpy\\dnSpy.exe %1"
