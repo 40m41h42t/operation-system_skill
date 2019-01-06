@@ -79,3 +79,12 @@ sudo apt-get install tree
 https://blog.csdn.net/qq_36290650/article/details/80745378
 
 利用了开源项目 `electron-ssr`
+
+# find查找多种文件后缀
+
+https://blog.csdn.net/pcyph/article/details/41683383
+
+```bash
+find ./ -regextype posix-extended -regex ".*\.(java|xml)" -exec ls {} \;
+```
+
