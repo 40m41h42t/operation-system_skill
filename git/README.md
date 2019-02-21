@@ -70,7 +70,25 @@ git remote -v
 
 - - 实测效果：由于网络质量问题，速度并不是很快，但是至少可以用。
 
-```
+```bash
 svn checkout https://github.com/Mooophy/Cpp-Primer/trunk/ch03
+```
+
+# git 设置代理
+
+```bash
+git config --global https.proxy http://127.0.0.1:1080
+git config --global https.proxy https://127.0.0.1:1080
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+# 查看 git 设置
+
+```
+查看仓库级的 config，命令：git config –local -l
+查看全局级的 config，命令：git config –global -l
+查看系统级的 config，命令：git config –system -l
+查看当前生效的配置，  命令：git config -l
 ```
 
